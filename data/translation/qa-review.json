@@ -1,0 +1,1483 @@
+{
+  "sampleSeed": 20260911,
+  "reviewer": "Codex editorial semantic review",
+  "method": "Two sequential random.sample draws from 4422 rows: 80 and 100 courses. Samples may overlap. This is a limited diagnostic review, not an accuracy certification.",
+  "samples": [
+    {
+      "name": "first80",
+      "count": 80,
+      "courses": [
+        {
+          "code": "MNE3118",
+          "titleEn": "Mechanics of Materials",
+          "clearIssueObserved": "Mechanics of Materials mistranslated as materials machinery.",
+          "currentTitleZhHans": "材料力学",
+          "currentTitleZhHant": "材料力學",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "BME6117",
+          "titleEn": "Biomedical Safety and Risk Assessment",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "生物医学安全和风险评估",
+          "currentTitleZhHant": "生物醫學安全和風險評估",
+          "translationSource": "machine"
+        },
+        {
+          "code": "SDSC8011",
+          "titleEn": "Social Foundations of Data Science",
+          "clearIssueObserved": "Foundations mistranslated as a foundation organization.",
+          "currentTitleZhHans": "数据科学的社会基础",
+          "currentTitleZhHant": "數據科學的社會基礎",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "CHEM4040",
+          "titleEn": "Environmental Impact Assessment",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "环境影响评估",
+          "currentTitleZhHant": "環境影響評估",
+          "translationSource": "machine"
+        },
+        {
+          "code": "EF5182",
+          "titleEn": "Independent Project",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "独立项目",
+          "currentTitleZhHant": "獨立項目",
+          "translationSource": "machine"
+        },
+        {
+          "code": "SS4303",
+          "titleEn": "Policing",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "警务",
+          "currentTitleZhHant": "警務",
+          "translationSource": "machine"
+        },
+        {
+          "code": "PHY2213",
+          "titleEn": "Advanced Measurement and Instrumentation",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "高级计量和仪器",
+          "currentTitleZhHant": "高級計量和儀器",
+          "translationSource": "machine"
+        },
+        {
+          "code": "LW6191E",
+          "titleEn": "Admiralty Law and Procedure",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "海事法和程序",
+          "currentTitleZhHant": "海事法和程序",
+          "translationSource": "machine"
+        },
+        {
+          "code": "SM6354",
+          "titleEn": "Qualitative Methods in Media and Technology",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "媒体和技术的定性方法",
+          "currentTitleZhHant": "媒體和技術的定性方法",
+          "translationSource": "machine"
+        },
+        {
+          "code": "IS4133",
+          "titleEn": "Cloud Computing and Services",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "云计算与服务",
+          "currentTitleZhHant": "雲計算與服務",
+          "translationSource": "machine"
+        },
+        {
+          "code": "DSC2004",
+          "titleEn": "Data Visualization",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "数据可视化",
+          "currentTitleZhHant": "數據可視化",
+          "translationSource": "machine"
+        },
+        {
+          "code": "LC4171",
+          "titleEn": "Advanced Interpreting: Cantonese and Putonghua",
+          "clearIssueObserved": "Interpreting and Putonghua mistranslated.",
+          "currentTitleZhHans": "高级口译：粤语与普通话",
+          "currentTitleZhHant": "高級口譯：粵語與普通話",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "SS4304",
+          "titleEn": "Sexual Offending",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "性犯罪",
+          "currentTitleZhHant": "性犯罪",
+          "translationSource": "machine"
+        },
+        {
+          "code": "CHEM3038A",
+          "titleEn": "Environmental Sampling and Risk Assessment",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "环境取样和风险评估",
+          "currentTitleZhHant": "環境取樣和風險評估",
+          "translationSource": "machine"
+        },
+        {
+          "code": "PIA5336",
+          "titleEn": "Cutting-edge Cases in Development under Late Capitalism",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "后期资本主义时期发展的前沿案例",
+          "currentTitleZhHant": "後期資本主義時期發展的前沿案例",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "MS4111",
+          "titleEn": "Enterprise Resource Planning",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "企业资源规划",
+          "currentTitleZhHant": "企業資源規劃",
+          "translationSource": "machine"
+        },
+        {
+          "code": "CS4293",
+          "titleEn": "Topics in Cybersecurity",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "网络安全专题",
+          "currentTitleZhHant": "網絡安全專題",
+          "translationSource": "machine"
+        },
+        {
+          "code": "VM1001",
+          "titleEn": "Pre-EMS Animal Handling Skills",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "EMS前动物处理技能",
+          "currentTitleZhHant": "EMS前動物處理技能",
+          "translationSource": "machine"
+        },
+        {
+          "code": "SS4586",
+          "titleEn": "Issues in Applied Social Research",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "应用社会研究中的问题",
+          "currentTitleZhHant": "應用社會研究中的問題",
+          "translationSource": "machine"
+        },
+        {
+          "code": "SM6311",
+          "titleEn": "Topics in Media Art II",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "媒体艺术主题 II",
+          "currentTitleZhHant": "媒體藝術主題 II",
+          "translationSource": "machine"
+        },
+        {
+          "code": "LW6139E",
+          "titleEn": "Advanced Issues on Chinese Civil Law",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "中国民法高级问题",
+          "currentTitleZhHant": "中國民法高級問題",
+          "translationSource": "machine"
+        },
+        {
+          "code": "SEE4220",
+          "titleEn": "Measurements of Air Pollutants",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "空气污染物的测量",
+          "currentTitleZhHant": "空氣污染物的測量",
+          "translationSource": "machine"
+        },
+        {
+          "code": "CA8022",
+          "titleEn": "Research Methodology and Ethics",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "研究方法与伦理",
+          "currentTitleZhHant": "研究方法與倫理",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "PHY6521",
+          "titleEn": "Advanced Solid State Physics",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "高级固态物理",
+          "currentTitleZhHant": "高級固態物理",
+          "translationSource": "machine"
+        },
+        {
+          "code": "EE5415",
+          "titleEn": "Mobile Applications Design and Development",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "移动应用程序设计和开发",
+          "currentTitleZhHant": "移動應用程序設計和開發",
+          "translationSource": "machine"
+        },
+        {
+          "code": "PIA2308",
+          "titleEn": "Working with Clients in Public Service",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "与公共服务客户合作",
+          "currentTitleZhHant": "與公共服務客戶合作",
+          "translationSource": "machine"
+        },
+        {
+          "code": "DSC3018",
+          "titleEn": "Introduction to Internet of Things",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "物联网介绍",
+          "currentTitleZhHant": "物聯網介紹",
+          "translationSource": "machine"
+        },
+        {
+          "code": "MS4504",
+          "titleEn": "Statistics for Economic and Financial Modelling",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "经济与金融建模统计学",
+          "currentTitleZhHant": "經濟與金融建模統計學",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "BMS3006B",
+          "titleEn": "Transfusion Science and Technology",
+          "clearIssueObserved": "Transfusion mistranslated as communication.",
+          "currentTitleZhHans": "输血科学与技术",
+          "currentTitleZhHant": "輸血科學與技術",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "LT4239",
+          "titleEn": "Conversation Analysis",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "对话分析",
+          "currentTitleZhHant": "對話分析",
+          "translationSource": "machine"
+        },
+        {
+          "code": "CA6609",
+          "titleEn": "Green Building, Architecture and People",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "绿色建筑、建筑和人",
+          "currentTitleZhHant": "綠色建築、建築和人",
+          "translationSource": "machine"
+        },
+        {
+          "code": "GE1337",
+          "titleEn": "Urban Green City: Pollution and Solution",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "城市绿城：污染与解决方案",
+          "currentTitleZhHant": "城市綠城：污染與解決方案",
+          "translationSource": "machine"
+        },
+        {
+          "code": "EF5474",
+          "titleEn": "Quantitative Methods in Economics",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "经济学的定量方法",
+          "currentTitleZhHant": "經濟學的定量方法",
+          "translationSource": "machine"
+        },
+        {
+          "code": "EN3571",
+          "titleEn": "Advanced English Phonetics and Phonology",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "高级英语语音学与音系学",
+          "currentTitleZhHant": "高級英語語音學與音系學",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "BME6140",
+          "titleEn": "Advanced Optical Microscopy for Biomedical Engineering",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "生物医学工程高级光学显微镜",
+          "currentTitleZhHant": "生物醫學工程高級光學顯微鏡",
+          "translationSource": "machine"
+        },
+        {
+          "code": "MGT4308",
+          "titleEn": "Staffing",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "人员配置",
+          "currentTitleZhHant": "人員配置",
+          "translationSource": "machine"
+        },
+        {
+          "code": "CAH3151",
+          "titleEn": "Chinese Expository Writing",
+          "clearIssueObserved": "Expository writing mistranslated as exhibition writing.",
+          "currentTitleZhHans": "中文说明文写作",
+          "currentTitleZhHant": "中文說明文寫作",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "FB6869P",
+          "titleEn": "Stress and Emotion Management",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "压力和情感管理",
+          "currentTitleZhHant": "壓力和情感管理",
+          "translationSource": "machine"
+        },
+        {
+          "code": "SM5323",
+          "titleEn": "Topics in Media History and Theory II",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "媒体历史和理论主题 II",
+          "currentTitleZhHant": "媒體歷史和理論主題 II",
+          "translationSource": "machine"
+        },
+        {
+          "code": "EN3589",
+          "titleEn": "Modern Drama: Text and Performance",
+          "clearIssueObserved": "Drama performance mistranslated as technical performance.",
+          "currentTitleZhHans": "现代戏剧：文本与表演",
+          "currentTitleZhHant": "現代戲劇：文本與表演",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "SM3612",
+          "titleEn": "Mixed Reality",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "混合现实",
+          "currentTitleZhHant": "混合現實",
+          "translationSource": "machine"
+        },
+        {
+          "code": "EN3241",
+          "titleEn": "Technical Communication",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "技术传播",
+          "currentTitleZhHant": "技術傳播",
+          "translationSource": "machine"
+        },
+        {
+          "code": "COM5407",
+          "titleEn": "Financial Communication and Promotion",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "财经传播与推广",
+          "currentTitleZhHant": "財經傳播與推廣",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "MNE3007",
+          "titleEn": "CAD/CAM",
+          "clearIssueObserved": "Spurious data-exchange centre added to CAD/CAM.",
+          "currentTitleZhHans": "计算机辅助设计与制造（CAD/CAM）",
+          "currentTitleZhHant": "計算機輔助設計與製造（CAD/CAM）",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "IS4937",
+          "titleEn": "Information Systems Project I",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "信息系统项目 I",
+          "currentTitleZhHant": "信息系統項目 I",
+          "translationSource": "machine"
+        },
+        {
+          "code": "FB8006I",
+          "titleEn": "CEO Forum",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "首席执行官论坛",
+          "currentTitleZhHant": "首席執行官論壇",
+          "translationSource": "machine"
+        },
+        {
+          "code": "EE6619",
+          "titleEn": "Antenna Design for Wireless Communications",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "无线通信的天线设计",
+          "currentTitleZhHant": "無線通信的天線設計",
+          "translationSource": "machine"
+        },
+        {
+          "code": "SM3808",
+          "titleEn": "Special Topics in Art and Science Studio II",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "艺术和科学工作室的专题 II",
+          "currentTitleZhHant": "藝術和科學工作室的專題 II",
+          "translationSource": "machine"
+        },
+        {
+          "code": "SYE5010",
+          "titleEn": "Engineering Management Principles and Concepts",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "工程管理原则和概念",
+          "currentTitleZhHant": "工程管理原則和概念",
+          "translationSource": "machine"
+        },
+        {
+          "code": "MA1501",
+          "titleEn": "Coordinate Geometry",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "解析几何",
+          "currentTitleZhHant": "解析幾何",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "MNE3046",
+          "titleEn": "Automation Technology",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "自动化技术",
+          "currentTitleZhHant": "自動化技術",
+          "translationSource": "machine"
+        },
+        {
+          "code": "GE2316",
+          "titleEn": "Computing Snapshot, Today and Tomorrow",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "计算快照，今天和明天",
+          "currentTitleZhHant": "計算快照，今天和明天",
+          "translationSource": "machine"
+        },
+        {
+          "code": "SS3429",
+          "titleEn": "Sociology of Health and Illness",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "健康和疾病社会学",
+          "currentTitleZhHant": "健康和疾病社會學",
+          "translationSource": "machine"
+        },
+        {
+          "code": "LW6409A",
+          "titleEn": "Dissertation",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "论文",
+          "currentTitleZhHant": "論文",
+          "translationSource": "machine"
+        },
+        {
+          "code": "CAH3167",
+          "titleEn": "Chinese for Mass Media",
+          "clearIssueObserved": "Chinese for mass media interpreted as a Chinese edition.",
+          "currentTitleZhHans": "大众传媒中文",
+          "currentTitleZhHant": "大衆傳媒中文",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "PHY6502",
+          "titleEn": "Advanced Computational Methods for Simulation and Modelling",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "模拟和建模的高级计算方法",
+          "currentTitleZhHant": "模擬和建模的高級計算方法",
+          "translationSource": "machine"
+        },
+        {
+          "code": "CHEM3074A",
+          "titleEn": "Plant Physiology",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "植物生理学",
+          "currentTitleZhHant": "植物生理學",
+          "translationSource": "machine"
+        },
+        {
+          "code": "LW6180E",
+          "titleEn": "International Commercial Contracts and Uniform Sales Law",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "国际商事合同和统一销售法",
+          "currentTitleZhHant": "國際商事合同和統一銷售法",
+          "translationSource": "machine"
+        },
+        {
+          "code": "GE2322",
+          "titleEn": "The Nobel Prize: A Discovery Approach to Human Greatness",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "诺贝尔奖：探索人类的卓越成就",
+          "currentTitleZhHant": "諾貝爾獎：探索人類的卓越成就",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "SS3733",
+          "titleEn": "Supervised Independent Study and Research",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "受监督的独立研究",
+          "currentTitleZhHant": "受監督的獨立研究",
+          "translationSource": "machine"
+        },
+        {
+          "code": "EF5050",
+          "titleEn": "Derivatives and Risk Management",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "衍生品与风险管理",
+          "currentTitleZhHant": "衍生品與風險管理",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "PH8006",
+          "titleEn": "Advanced Molecular Diagnostics and Imaging",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "高级分子诊断和成像",
+          "currentTitleZhHant": "高級分子診斷和成像",
+          "translationSource": "machine"
+        },
+        {
+          "code": "BMS2007",
+          "titleEn": "Human Anatomy",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "人体解剖学",
+          "currentTitleZhHant": "人體解剖學",
+          "translationSource": "machine"
+        },
+        {
+          "code": "MA3530",
+          "titleEn": "Selected Topics on Mathematics",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "数学专题选讲",
+          "currentTitleZhHant": "數學專題選講",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "SM4704",
+          "titleEn": "Art Game Studio",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "艺术游戏工作室",
+          "currentTitleZhHant": "藝術遊戲工作室",
+          "translationSource": "machine"
+        },
+        {
+          "code": "SEE5211",
+          "titleEn": "Data Analysis in Environmental Applications",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "环境应用数据分析",
+          "currentTitleZhHant": "環境應用數據分析",
+          "translationSource": "machine"
+        },
+        {
+          "code": "LT8801",
+          "titleEn": "Departmental Research Seminars",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "院系研究研讨会",
+          "currentTitleZhHant": "院系研究研討會",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "EE3001",
+          "titleEn": "Foundations of Data Engineering",
+          "clearIssueObserved": "Foundations mistranslated as a foundation organization.",
+          "currentTitleZhHans": "数据工程基础",
+          "currentTitleZhHant": "數據工程基礎",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "CA4749",
+          "titleEn": "Final Year Project",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "毕业专题研习",
+          "currentTitleZhHant": "畢業專題研習",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "EE6428",
+          "titleEn": "Optical Communications",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "光学通信",
+          "currentTitleZhHant": "光學通信",
+          "translationSource": "machine"
+        },
+        {
+          "code": "SYE6037",
+          "titleEn": "Managing Strategic Quality",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "管理战略质量",
+          "currentTitleZhHant": "管理戰略質量",
+          "translationSource": "machine"
+        },
+        {
+          "code": "MGT3302",
+          "titleEn": "Interactive Skills Workshop for Business",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "商业互动技能讲习班",
+          "currentTitleZhHant": "商業互動技能講習班",
+          "translationSource": "machine"
+        },
+        {
+          "code": "LC2302",
+          "titleEn": "Putonghua for Academic Purposes II",
+          "clearIssueObserved": "Putonghua mistranslated as an invented proper name.",
+          "currentTitleZhHans": "学术普通话 II",
+          "currentTitleZhHant": "學術普通話 II",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "SS5213",
+          "titleEn": "Social Work Research Methods",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "社会工作研究方法",
+          "currentTitleZhHant": "社會工作研究方法",
+          "translationSource": "machine"
+        },
+        {
+          "code": "BME6022",
+          "titleEn": "Project Development Study",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "项目发展研究",
+          "currentTitleZhHant": "項目發展研究",
+          "translationSource": "machine"
+        },
+        {
+          "code": "SS4293",
+          "titleEn": "Practicum II",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "实习 II",
+          "currentTitleZhHant": "實習 II",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "FB6710B",
+          "titleEn": "Practical FinTech Applications",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "实用 FinTech 应用程序",
+          "currentTitleZhHant": "實用 FinTech 應用程序",
+          "translationSource": "machine"
+        },
+        {
+          "code": "SEE5114",
+          "titleEn": "Energy, Environment and Sustainable Development",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "能源、环境与可持续发展",
+          "currentTitleZhHant": "能源、環境與可持續發展",
+          "translationSource": "machine"
+        },
+        {
+          "code": "MA2001",
+          "titleEn": "Multi-variable Calculus and Linear Algebra",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "多元微积分与线性代数",
+          "currentTitleZhHant": "多元微積分與線性代數",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "BMS2202",
+          "titleEn": "Diversity of Life and Evolution",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "生命和进化的多样性",
+          "currentTitleZhHant": "生命和進化的多樣性",
+          "translationSource": "machine"
+        }
+      ]
+    },
+    {
+      "name": "second100",
+      "count": 100,
+      "courses": [
+        {
+          "code": "FB6773C",
+          "titleEn": "Global Exchange III",
+          "clearIssueObserved": "Student exchange mistranslated as stock exchange.",
+          "currentTitleZhHans": "国际交流 III",
+          "currentTitleZhHant": "國際交流 III",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "LT5601",
+          "titleEn": "Stylistics and Translation",
+          "clearIssueObserved": "Stylistics mistranslated as structure.",
+          "currentTitleZhHans": "文体学与翻译",
+          "currentTitleZhHant": "文體學與翻譯",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "CA8017M",
+          "titleEn": "Research Seminar for Real Estate and Built Environment",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "房地产和建筑环境研究研讨会",
+          "currentTitleZhHant": "房地產和建築環境研究研討會",
+          "translationSource": "machine"
+        },
+        {
+          "code": "FB5816P",
+          "titleEn": "Contemporary Marketing",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "当代营销",
+          "currentTitleZhHant": "當代營銷",
+          "translationSource": "machine"
+        },
+        {
+          "code": "PHY6526",
+          "titleEn": "Energy Materials: Physics and Applications",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "能源材料：物理和应用",
+          "currentTitleZhHant": "能源材料：物理和應用",
+          "translationSource": "machine"
+        },
+        {
+          "code": "SYE8025D",
+          "titleEn": "Research Methods in Engineering Management",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "工程管理的研究方法",
+          "currentTitleZhHant": "工程管理的研究方法",
+          "translationSource": "machine"
+        },
+        {
+          "code": "CAH5748",
+          "titleEn": "Modern China and Hong Kong",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "现代中国和香港",
+          "currentTitleZhHant": "現代中國和香港",
+          "translationSource": "machine"
+        },
+        {
+          "code": "LT5432",
+          "titleEn": "Lexical Semantics",
+          "clearIssueObserved": "Lexical meaning omitted from lexical semantics.",
+          "currentTitleZhHans": "词汇语义学",
+          "currentTitleZhHant": "詞彙語義學",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "CAH3517",
+          "titleEn": "Cultural Tourism",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "文化旅游",
+          "currentTitleZhHant": "文化旅遊",
+          "translationSource": "machine"
+        },
+        {
+          "code": "CSCI0004",
+          "titleEn": "Internship",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "实习",
+          "currentTitleZhHant": "實習",
+          "translationSource": "machine"
+        },
+        {
+          "code": "NS6003",
+          "titleEn": "A Mathematical Introduction to Neural Networks",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "神经网络数学导论",
+          "currentTitleZhHant": "神經網絡數學導論",
+          "translationSource": "machine"
+        },
+        {
+          "code": "AC8980",
+          "titleEn": "Research Methodology in Financial Accounting",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "财务会计研究方法",
+          "currentTitleZhHant": "財務會計研究方法",
+          "translationSource": "machine"
+        },
+        {
+          "code": "CS5222",
+          "titleEn": "Computer Networks and Internets",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "计算机网络和因特网",
+          "currentTitleZhHant": "計算機網絡和因特網",
+          "translationSource": "machine"
+        },
+        {
+          "code": "MA4535",
+          "titleEn": "Applied Probability",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "应用概率论",
+          "currentTitleZhHant": "應用概率論",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "GE1308",
+          "titleEn": "Energy: Today and Tomorrow",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "能源：今天和明天",
+          "currentTitleZhHant": "能源：今天和明天",
+          "translationSource": "machine"
+        },
+        {
+          "code": "LW6109E",
+          "titleEn": "Banking and Finance Law",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "银行和金融法",
+          "currentTitleZhHant": "銀行和金融法",
+          "translationSource": "machine"
+        },
+        {
+          "code": "CS3383",
+          "titleEn": "AI for Software Engineering",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "软件工程AI",
+          "currentTitleZhHant": "軟件工程AI",
+          "translationSource": "machine"
+        },
+        {
+          "code": "IS6620",
+          "titleEn": "Large Language Model with Prompt Engineering for Business",
+          "clearIssueObserved": "Prompt engineering mistranslated as rapid engineering.",
+          "currentTitleZhHans": "商用大语言模型与提示词工程",
+          "currentTitleZhHant": "商用大語言模型與提示詞工程",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "LW2604A",
+          "titleEn": "Legal Research and Writing I",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "法律研究和写作 I",
+          "currentTitleZhHant": "法律研究和寫作 I",
+          "translationSource": "machine"
+        },
+        {
+          "code": "LT4236",
+          "titleEn": "Project II",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "项目 II",
+          "currentTitleZhHant": "項目 II",
+          "translationSource": "machine"
+        },
+        {
+          "code": "CA2506",
+          "titleEn": "Industrial Internship",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "工业实习",
+          "currentTitleZhHant": "工業實習",
+          "translationSource": "machine"
+        },
+        {
+          "code": "EF5044",
+          "titleEn": "Sustainable Finance",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "可持续融资",
+          "currentTitleZhHant": "可持續融資",
+          "translationSource": "machine"
+        },
+        {
+          "code": "VM4401",
+          "titleEn": "Research Project",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "研究项目",
+          "currentTitleZhHant": "研究項目",
+          "translationSource": "machine"
+        },
+        {
+          "code": "CS3185",
+          "titleEn": "Computer Architecture",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "计算机体系结构",
+          "currentTitleZhHant": "計算機體系結構",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "COM5504",
+          "titleEn": "Advanced Multimedia Communication",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "高级多媒体传播",
+          "currentTitleZhHant": "高級多媒體傳播",
+          "translationSource": "machine"
+        },
+        {
+          "code": "PIA6604",
+          "titleEn": "MAPPM Capstone Project",
+          "clearIssueObserved": "Capstone mistranslated as a literal rock.",
+          "currentTitleZhHans": "公共政策与管理硕士毕业综合项目",
+          "currentTitleZhHant": "公共政策與管理碩士畢業綜合項目",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "SM2714",
+          "titleEn": "Fundamentals of Animation",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "动画的基本原理",
+          "currentTitleZhHant": "動畫的基本原理",
+          "translationSource": "machine"
+        },
+        {
+          "code": "EE6426",
+          "titleEn": "Radio Frequency (RF) Circuit Engineering",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "无线电频率(RF)电路工程",
+          "currentTitleZhHant": "無線電頻率(RF)電路工程",
+          "translationSource": "machine"
+        },
+        {
+          "code": "JC2002",
+          "titleEn": "Artists in the Labs",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "实验室中的艺术家",
+          "currentTitleZhHant": "實驗室中的藝術家",
+          "translationSource": "machine"
+        },
+        {
+          "code": "LT2321",
+          "titleEn": "Culture and Translation",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "文化和翻译",
+          "currentTitleZhHant": "文化和翻譯",
+          "translationSource": "machine"
+        },
+        {
+          "code": "EE6449",
+          "titleEn": "Electromagnetic Compatibility - EMC Theory, Design and Measurement",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "电磁兼容性 -- -- EMC理论、设计和测量",
+          "currentTitleZhHant": "電磁兼容性 -- -- EMC理論、設計和測量",
+          "translationSource": "machine"
+        },
+        {
+          "code": "AC5813",
+          "titleEn": "Financial and Management Accounting",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "财务和管理会计",
+          "currentTitleZhHant": "財務和管理會計",
+          "translationSource": "machine"
+        },
+        {
+          "code": "MNE8122",
+          "titleEn": "Advanced Topics in Nonlinear Dynamics, Vibration & Control",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "非线性动力学、振动与控制高级专题",
+          "currentTitleZhHant": "非線性動力學、振動與控制高級專題",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "COM4601",
+          "titleEn": "Communication Practicum",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "传播实习",
+          "currentTitleZhHant": "傳播實習",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "LW4630B",
+          "titleEn": "Equity and Trusts II",
+          "clearIssueObserved": "Legal equity mistranslated as fairness.",
+          "currentTitleZhHans": "衡平法与信托 II",
+          "currentTitleZhHant": "衡平法與信託 II",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "VCS5008",
+          "titleEn": "Applied Advanced Diagnostic Medicine",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "应用高级诊断医学",
+          "currentTitleZhHant": "應用高級診斷醫學",
+          "translationSource": "machine"
+        },
+        {
+          "code": "MA1400",
+          "titleEn": "Calculus I",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "微积分 I",
+          "currentTitleZhHant": "微積分 I",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "SS3283",
+          "titleEn": "Introduction to Fieldwork Learning I",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "实地工作学习介绍 I",
+          "currentTitleZhHant": "實地工作學習介紹 I",
+          "translationSource": "machine"
+        },
+        {
+          "code": "COM3211",
+          "titleEn": "Business Journalism",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "商业新闻",
+          "currentTitleZhHant": "商業新聞",
+          "translationSource": "machine"
+        },
+        {
+          "code": "MGT4315",
+          "titleEn": "Leadership",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "领导",
+          "currentTitleZhHant": "領導",
+          "translationSource": "machine"
+        },
+        {
+          "code": "MKT4650",
+          "titleEn": "Designing Brand and Customer Experience",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "品牌与顾客体验设计",
+          "currentTitleZhHant": "品牌與顧客體驗設計",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "LW6140E",
+          "titleEn": "Chinese and Comparative Commercial Law",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "中国商法与比较商法",
+          "currentTitleZhHant": "中國商法與比較商法",
+          "translationSource": "machine"
+        },
+        {
+          "code": "MNE3121",
+          "titleEn": "Heat Transfer",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "传热学",
+          "currentTitleZhHant": "傳熱學",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "CA8024",
+          "titleEn": "Independent Study of Architecture",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "建筑学独立研究",
+          "currentTitleZhHant": "建築學獨立研究",
+          "translationSource": "machine"
+        },
+        {
+          "code": "PIA6304",
+          "titleEn": "Public Human Resource Management",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "公共人力资源管理",
+          "currentTitleZhHant": "公共人力資源管理",
+          "translationSource": "machine"
+        },
+        {
+          "code": "CA3230",
+          "titleEn": "Property Valuation and Interest Theory",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "财产估价和利息理论",
+          "currentTitleZhHant": "財產估價和利息理論",
+          "translationSource": "machine"
+        },
+        {
+          "code": "MSE8011",
+          "titleEn": "Thermodynamics of Materials",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "材料的热力学",
+          "currentTitleZhHant": "材料的熱力學",
+          "translationSource": "machine"
+        },
+        {
+          "code": "MKT4604",
+          "titleEn": "Marketing in China",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "中国市场营销",
+          "currentTitleZhHant": "中國市場營銷",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "VM4103",
+          "titleEn": "Conservation, Zoo and Exotic Animal Medicine",
+          "clearIssueObserved": "Exotic animal medicine mistranslated as surgical drugs.",
+          "currentTitleZhHans": "保育、动物园及异宠医学",
+          "currentTitleZhHant": "保育、動物園及異寵醫學",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "CA4728",
+          "titleEn": "Smart Ventilation and Indoor Air Quality",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "智能通风和室内空气质量",
+          "currentTitleZhHant": "智能通風和室內空氣質量",
+          "translationSource": "machine"
+        },
+        {
+          "code": "CB2300",
+          "titleEn": "Management",
+          "clearIssueObserved": "Management as a discipline mistranslated as management staff.",
+          "currentTitleZhHans": "管理学",
+          "currentTitleZhHant": "管理學",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "CAH5734",
+          "titleEn": "Writing for Museum Professionals",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "为博物馆专业人员写作",
+          "currentTitleZhHant": "爲博物館專業人員寫作",
+          "translationSource": "machine"
+        },
+        {
+          "code": "CS5291",
+          "titleEn": "Cybersecurity Forensics and Incident Response",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "网络安全法证和事件应对",
+          "currentTitleZhHant": "網絡安全法證和事件應對",
+          "translationSource": "machine"
+        },
+        {
+          "code": "DSC3025",
+          "titleEn": "Internship for Flagship Programme",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "旗舰方案实习",
+          "currentTitleZhHant": "旗艦方案實習",
+          "translationSource": "machine"
+        },
+        {
+          "code": "SS5115",
+          "titleEn": "Social Sciences Theories for Social Work",
+          "clearIssueObserved": "Incorrect relationship between social science theories and social work.",
+          "currentTitleZhHans": "社会工作中的社会科学理论",
+          "currentTitleZhHant": "社會工作中的社會科學理論",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "LW3610",
+          "titleEn": "Public Law of the PRC",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "中华人民共和国公法",
+          "currentTitleZhHant": "中華人民共和國公法",
+          "translationSource": "machine"
+        },
+        {
+          "code": "DSC6002",
+          "titleEn": "Research Projects for Data Science",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "数据科学研究项目",
+          "currentTitleZhHant": "數據科學研究項目",
+          "translationSource": "machine"
+        },
+        {
+          "code": "MNE8117",
+          "titleEn": "Micro Systems Technology",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "微系统技术",
+          "currentTitleZhHant": "微系統技術",
+          "translationSource": "machine"
+        },
+        {
+          "code": "BME3201",
+          "titleEn": "Internship in Technology and Engineering",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "技术和工程专业实习",
+          "currentTitleZhHant": "技術和工程專業實習",
+          "translationSource": "machine"
+        },
+        {
+          "code": "CAI6003A",
+          "titleEn": "Innovation Project",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "创新项目",
+          "currentTitleZhHant": "創新項目",
+          "translationSource": "machine"
+        },
+        {
+          "code": "SS5832",
+          "titleEn": "Counselling Older Adults",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "老年人辅导",
+          "currentTitleZhHant": "老年人輔導",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "MKT4682",
+          "titleEn": "Artificial Intelligence for Marketing",
+          "clearIssueObserved": "Artificial intelligence mistranslated as intelligence information.",
+          "currentTitleZhHans": "人工智能在市场营销中的应用",
+          "currentTitleZhHant": "人工智能在市場營銷中的應用",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "IS4543",
+          "titleEn": "Risk Management and Information Systems Control",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "风险管理和信息系统控制",
+          "currentTitleZhHant": "風險管理和信息系統控制",
+          "translationSource": "machine"
+        },
+        {
+          "code": "EN3513",
+          "titleEn": "Promotional Writing in English",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "英文宣传写作",
+          "currentTitleZhHant": "英文宣傳寫作",
+          "translationSource": "machine"
+        },
+        {
+          "code": "PLE5051",
+          "titleEn": "Mediation and Negotiation",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "调解和谈判",
+          "currentTitleZhHant": "調解和談判",
+          "translationSource": "machine"
+        },
+        {
+          "code": "COM5104",
+          "titleEn": "Research Methods for Communication and New Media",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "传播和新媒体的研究方法",
+          "currentTitleZhHant": "傳播和新媒體的研究方法",
+          "translationSource": "machine"
+        },
+        {
+          "code": "LW5669",
+          "titleEn": "Employment Law in Hong Kong",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "香港就业法",
+          "currentTitleZhHant": "香港就業法",
+          "translationSource": "machine"
+        },
+        {
+          "code": "CS2360",
+          "titleEn": "Java Programming",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "Java 程序设计",
+          "currentTitleZhHant": "Java 程序設計",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "LW4612",
+          "titleEn": "Legal Placement",
+          "clearIssueObserved": "Legal placement mistranslated as resettlement.",
+          "currentTitleZhHans": "法律实习",
+          "currentTitleZhHant": "法律實習",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "PIA2104",
+          "titleEn": "Hong Kong Governance",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "香港施政",
+          "currentTitleZhHant": "香港施政",
+          "translationSource": "machine"
+        },
+        {
+          "code": "MS4226",
+          "titleEn": "Financial Risk Analytics",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "金融风险分析",
+          "currentTitleZhHant": "金融風險分析",
+          "translationSource": "machine"
+        },
+        {
+          "code": "MS8949",
+          "titleEn": "Decision Analytics and Operations Seminar Series II",
+          "clearIssueObserved": "Decision analytics and operations mistranslated as decision/business seminars.",
+          "currentTitleZhHans": "决策分析及营运讨论会系列 II",
+          "currentTitleZhHant": "決策分析及營運討論會系列 II",
+          "translationSource": "machine"
+        },
+        {
+          "code": "MS3261",
+          "titleEn": "Business Modeling with Spreadsheets",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "电子表格商业建模",
+          "currentTitleZhHant": "電子表格商業建模",
+          "translationSource": "machine"
+        },
+        {
+          "code": "LT5606",
+          "titleEn": "Translating Cultures",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "翻译文化",
+          "currentTitleZhHant": "翻譯文化",
+          "translationSource": "machine"
+        },
+        {
+          "code": "CS6537",
+          "titleEn": "Guided Study in Information Security",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "信息安全指导研究",
+          "currentTitleZhHant": "信息安全指導研究",
+          "translationSource": "machine"
+        },
+        {
+          "code": "MSE4118",
+          "titleEn": "Composites",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "复合材料",
+          "currentTitleZhHant": "複合材料",
+          "translationSource": "machine"
+        },
+        {
+          "code": "SS6805B",
+          "titleEn": "Project",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "项目",
+          "currentTitleZhHant": "項目",
+          "translationSource": "machine"
+        },
+        {
+          "code": "PIA3032",
+          "titleEn": "State and Economy in Asia",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "亚洲的国家和经济",
+          "currentTitleZhHant": "亞洲的國家和經濟",
+          "translationSource": "machine"
+        },
+        {
+          "code": "FB8003I",
+          "titleEn": "Methodology for Applied Business Research III",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "应用商业研究方法 III",
+          "currentTitleZhHant": "應用商業研究方法 III",
+          "translationSource": "machine"
+        },
+        {
+          "code": "FB6773B",
+          "titleEn": "Global Exchange II",
+          "clearIssueObserved": "Student exchange mistranslated as stock exchange.",
+          "currentTitleZhHans": "国际交流 II",
+          "currentTitleZhHant": "國際交流 II",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "MGT6318",
+          "titleEn": "Employee Engagement and Performance",
+          "clearIssueObserved": "Employee engagement mistranslated as employee recruitment.",
+          "currentTitleZhHans": "员工敬业度与绩效",
+          "currentTitleZhHant": "員工敬業度與績效",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "FB5772B",
+          "titleEn": "Applied Financial Analytics for Risk Management",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "风险管理应用财务分析",
+          "currentTitleZhHant": "風險管理應用財務分析",
+          "translationSource": "machine"
+        },
+        {
+          "code": "SS3419",
+          "titleEn": "Complex Organizations",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "复杂组织",
+          "currentTitleZhHant": "複雜組織",
+          "translationSource": "machine"
+        },
+        {
+          "code": "CA8026",
+          "titleEn": "Plasticity",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "塑性力学",
+          "currentTitleZhHant": "塑性力學",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "LW5670",
+          "titleEn": "International Human Rights Law",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "国际人权法",
+          "currentTitleZhHant": "國際人權法",
+          "translationSource": "machine"
+        },
+        {
+          "code": "LW3611",
+          "titleEn": "Private Law of the PRC",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "中华人民共和国私法",
+          "currentTitleZhHant": "中華人民共和國私法",
+          "translationSource": "machine"
+        },
+        {
+          "code": "LW6112E",
+          "titleEn": "Human Rights Responsibilities of Business",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "企业的人权责任",
+          "currentTitleZhHant": "企業的人權責任",
+          "translationSource": "machine"
+        },
+        {
+          "code": "MKT4674",
+          "titleEn": "Advanced Internship",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "高级实习",
+          "currentTitleZhHant": "高級實習",
+          "translationSource": "machine"
+        },
+        {
+          "code": "SYE6109",
+          "titleEn": "Semiconductor Manufacturing and Management",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "半导体制造和管理",
+          "currentTitleZhHant": "半導體制造和管理",
+          "translationSource": "machine"
+        },
+        {
+          "code": "IS6940C",
+          "titleEn": "Information Technology Leadership Forum",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "信息技术领导论坛",
+          "currentTitleZhHant": "信息技術領導論壇",
+          "translationSource": "machine"
+        },
+        {
+          "code": "CA5018",
+          "titleEn": "Modelling and Computational Techniques for Built Environment",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "建造环境的建模和计算技术",
+          "currentTitleZhHant": "建造環境的建模和計算技術",
+          "translationSource": "machine"
+        },
+        {
+          "code": "CHEM3074A",
+          "titleEn": "Plant Physiology",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "植物生理学",
+          "currentTitleZhHant": "植物生理學",
+          "translationSource": "machine"
+        },
+        {
+          "code": "SS3720",
+          "titleEn": "Neuropsychology",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "神经心理学",
+          "currentTitleZhHant": "神經心理學",
+          "translationSource": "machine"
+        },
+        {
+          "code": "EF4620",
+          "titleEn": "AI Applications in Investment Management",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "AI 投资管理中的应用",
+          "currentTitleZhHant": "AI 投資管理中的應用",
+          "translationSource": "machine"
+        },
+        {
+          "code": "LW6100E",
+          "titleEn": "Advanced Legal Research Methodology",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "高级法律研究方法",
+          "currentTitleZhHant": "高級法律研究方法",
+          "translationSource": "machine"
+        },
+        {
+          "code": "BME6005",
+          "titleEn": "Micro Systems Technology",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "微系统技术",
+          "currentTitleZhHant": "微系統技術",
+          "translationSource": "machine"
+        },
+        {
+          "code": "CS3402",
+          "titleEn": "Database Systems",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "数据库系统",
+          "currentTitleZhHant": "數據庫系統",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "SS5430",
+          "titleEn": "Case Management and Practice",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "个案管理与实践",
+          "currentTitleZhHant": "個案管理與實踐",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "DSC4008",
+          "titleEn": "Deep Learning",
+          "clearIssueObserved": null,
+          "currentTitleZhHans": "深度学习",
+          "currentTitleZhHant": "深度學習",
+          "translationSource": "editorial-glossary"
+        },
+        {
+          "code": "FB6894P",
+          "titleEn": "ESG and Sustainability",
+          "clearIssueObserved": "Governance component omitted from ESG.",
+          "currentTitleZhHans": "环境、社会与管治（ESG）及可持续发展",
+          "currentTitleZhHant": "環境、社會與管治（ESG）及可持續發展",
+          "translationSource": "editorial-glossary"
+        }
+      ]
+    }
+  ],
+  "clearErrorsObservedInFirst80": 10,
+  "clearErrorsObservedInSecond100": 15,
+  "policy": "All observed listed errors have exact-title or source-aware terminology corrections. All records remain needs-human-review; unreviewed domain terminology may still be inaccurate.",
+  "additionalDomainReview": {
+    "method": "Editorial inspection of machine-generated CS, MA, GE and CAH titles, followed by exact-title glossary corrections; targeted scan for AI/Generative/Mechanics/Corpus/Stochastic terminology. This is an agent review, not a claim of full human proofreading.",
+    "illustrativeCorrections": {
+      "Explainable AI": "可解释人工智能",
+      "Numerical Partial Differential Equations": "偏微分方程数值方法",
+      "Introduction to Sinology": "汉学导论",
+      "Classical Chinese Fiction and Xiqu": "中国古典小说与戏曲",
+      "Siku Quanshu": "四库全书",
+      "Corpus Linguistics": "语料库语言学",
+      "Engineering Mechanics": "工程力学"
+    }
+  },
+  "descriptionReview": {
+    "initialSampleSize": 12,
+    "observedSevereLongSentenceExamples": [
+      "DSC8007",
+      "CA4708"
+    ],
+    "action": "Limit translated short descriptions to the first official sentence (at most 600 source characters); full source remains in descriptionEn. Added exact-excerpt glossary corrections for observed title/description ambiguities.",
+    "additionalObservedRepetitionCorrected": "CAH4150 repeated poetry phrases, corrected with an exact-source editorial description."
+  }
+}

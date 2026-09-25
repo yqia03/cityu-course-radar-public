@@ -1,0 +1,442 @@
+{
+  "checkedAt": "2026-09-25",
+  "scope": "Bounded two-round public research, followed by two no-new-source supplementary passes within round 2. Not exhaustive.",
+  "queryCount": 32,
+  "courseIdentityQueries": 3,
+  "method": "Search summaries and student aggregators locate candidates only. Original notes, original comment permalinks and original blog are actually read before publication. No credentials, cookies, downloads of source PDFs, image sets or CAPTCHA bypass.",
+  "searchGroups": [
+    {
+      "id": "R1-01",
+      "round": 1,
+      "purpose": "cross-department-discovery",
+      "departments": [
+        "CS / postgraduate",
+        "Business / undergraduate and postgraduate",
+        "Gateway Education"
+      ],
+      "platforms": ["xiaohongshu", "Dcard", "public-guides"],
+      "queries": [
+        "site.xiaohongshu.com \"Cityu\" \"课程\" \"评价\"",
+        "site.xiaohongshu.com \"城大\" \"商科\" \"选课\"",
+        "site.dcard.tw/f/cityu \"GE\" \"伏\"",
+        "CityU course review student guide GitHub GE"
+      ],
+      "result": "Public search returned no usable Xiaohongshu original; guides discovered; Dcard GE2306 was a question, not experience."
+    },
+    {
+      "id": "R1-02",
+      "round": 1,
+      "purpose": "cross-department-discovery",
+      "departments": [
+        "Economics and Finance",
+        "Media and Communication",
+        "Gateway Education",
+        "Accountancy"
+      ],
+      "platforms": ["xiaohongshu", "LIHKG", "Dcard"],
+      "queries": [
+        "site.xiaohongshu.com CityU EF 金融 课程",
+        "site.xiaohongshu.com 城大 传媒 选课 课程 体验",
+        "site.lihkg.com cityu GE 讀 course",
+        "site.dcard.tw/f/cityu \"AC1201\""
+      ],
+      "result": "No publishable matched experience; returned general programme information and unrelated admissions threads."
+    },
+    {
+      "id": "R1-03",
+      "round": 1,
+      "purpose": "cross-department-discovery",
+      "departments": [
+        "Gateway Education",
+        "Economics and Finance",
+        "Computer Science"
+      ],
+      "platforms": ["blogs", "xiaohongshu", "Dcard"],
+      "queries": [
+        "\"CityU\" \"GE\" \"review\" blog",
+        "\"城大\" \"EF5042\" 评价",
+        "\"CityU\" \"CS5486\" \"小红书\"",
+        "site.dcard.tw/f/cityu \"好讀\""
+      ],
+      "result": "Found GE1337 question, source-selling adverts, course English blog and guide links; guides used only for discovery."
+    },
+    {
+      "id": "R2-04",
+      "round": 2,
+      "purpose": "zero-coverage-and-new-leads",
+      "departments": ["Gateway Education", "Business", "Computer Science"],
+      "platforms": ["Dcard", "LIHKG", "Reddit", "blogs"],
+      "queries": [
+        "site.dcard.tw/f/cityu \"GE\" \"讀過\" \"推薦\"",
+        "site.dcard.tw/f/cityu \"CB2200\" \"難\"",
+        "site.lihkg.com \"GE1401\"",
+        "site.reddit.com \"CityU\" \"CS3334\""
+      ],
+      "result": "GE1301 B1 direct experience and TrulyBright original blog found and read. Reddit/LIHKG did not yield matched course experience; no invented mappings."
+    },
+    {
+      "id": "R2-05",
+      "round": 2,
+      "purpose": "course-identity-and-media-follow-up",
+      "departments": [
+        "Computer Science",
+        "Social and Behavioural Sciences",
+        "Energy and Environment",
+        "Media and Communication"
+      ],
+      "platforms": ["official-catalogue", "xiaohongshu"],
+      "queries": [
+        "site.cityu.edu.hk \"CS5293\" \"Topics on Information Security\"",
+        "site.cityu.edu.hk \"SS2025\" \"Sociology of Politics\"",
+        "site.cityu.edu.hk \"GE1301\" \"Climate Change and Extreme Weather\"",
+        "site.xiaohongshu.com \"香港城市大学\" \"传播\" \"选课\""
+      ],
+      "result": "First three queries verify identity/history rather than discover reviews. CS5293 historical and current official pages subsequently read in browser. SS2025 not added because historical teaching content differs substantially. Media query found no original review."
+    },
+    {
+      "id": "R2-06",
+      "round": 2,
+      "purpose": "zero-coverage-cross-department-follow-up",
+      "departments": [
+        "Economics and Finance",
+        "Electrical Engineering",
+        "Media and Communication",
+        "Law"
+      ],
+      "platforms": ["blogs", "Dcard", "xiaohongshu", "public-guides"],
+      "queries": [
+        "CityU \"CB2400\" \"Microeconomics\" review experience",
+        "香港城市大学 微观经济学 选课 体验 小红书",
+        "CityU \"EE\" \"course review\" electronics",
+        "香港城市大學 傳播 法律 課程 心得 小紅書"
+      ],
+      "result": "Only a CB2400 question, source-selling adverts, broad law programme advice and a Zhihu programme-level lead; no further publishable code-matched original."
+    },
+    {
+      "id": "R2-07",
+      "round": 2,
+      "purpose": "supplementary-pass-1",
+      "departments": ["Computer Science", "Energy and Environment"],
+      "platforms": ["xiaohongshu", "web"],
+      "queries": [
+        "\"CityU\" \"CS5486\" \"Intelligent Systems\" review",
+        "\"香港城市大学\" \"智能系统\" 选课 小红书",
+        "\"CityU\" \"GE1301\" \"Climate Change\" review",
+        "\"城大\" \"GE1301\" \"氣候\" 課評"
+      ],
+      "result": "No additional verified review; hits mainly official pages, staff CVs, document-hosting indexes and agents. Document helpfulness percentages are not course ratings."
+    },
+    {
+      "id": "R2-08",
+      "round": 2,
+      "purpose": "supplementary-pass-2",
+      "departments": [
+        "Economics and Finance",
+        "Social and Behavioural Sciences",
+        "Law",
+        "Gateway Education"
+      ],
+      "platforms": ["LIHKG", "blogs", "web"],
+      "queries": [
+        "\"CityU\" \"CB2400\" \"微觀\" \"心得\"",
+        "\"CityU\" \"SS3119\" \"Penology\" experience",
+        "\"CityU\" \"LW2601\" \"Hong Kong Legal System\" review",
+        "site.lihkg.com \"Cityu\" \"選科\" \"GE\""
+      ],
+      "result": "No additional verified review; rediscovered the same TrulyBright post and official/document index pages. Same post not counted again."
+    }
+  ],
+  "guideDiscovery": [
+    {
+      "url": "https://null1024-ws.github.io/CityU-CS-Guide/course/CS5486.html",
+      "result": "Linked originals inspected; guide summaries never imported as original student testimony."
+    },
+    {
+      "url": "https://null1024-ws.github.io/CityU-CS-Guide/course/CS5489.html",
+      "result": "Linked originals inspected; guide summaries never imported as original student testimony."
+    },
+    {
+      "url": "https://null1024-ws.github.io/CityU-CS-Guide/course/CS6491.html",
+      "result": "Linked originals inspected; guide summaries never imported as original student testimony."
+    },
+    {
+      "url": "https://null1024-ws.github.io/CityU-CS-Guide/course/CS5286.html",
+      "result": "No source links available at read time."
+    },
+    {
+      "url": "https://null1024-ws.github.io/CityU-CS-Guide/course/CS5293.html",
+      "result": "Linked originals inspected; guide summaries never imported as original student testimony."
+    },
+    {
+      "url": "https://null1024-ws.github.io/CityU-CS-Guide/course/CS5367.html",
+      "result": "No source links available at read time."
+    },
+    {
+      "url": "https://null1024-ws.github.io/CityU-CS-Guide/course/CS6487.html",
+      "result": "Linked originals inspected; guide summaries never imported as original student testimony."
+    },
+    {
+      "url": "https://null1024-ws.github.io/CityU-CS-Guide/course/CS6535.html",
+      "result": "No source links available at read time."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "xhs-6896d8f6000000002501cfe6",
+      "platform": "xiaohongshu",
+      "url": "https://www.xiaohongshu.com/explore/6896d8f6000000002501cfe6",
+      "status": "blocked-unverified",
+      "reason": "Web timeout; normal public browser navigation returned note unavailable / open app (300031).",
+      "discoveryUrl": "https://null1024-ws.github.io/CityU-CS-Guide/course/CS5486.html",
+      "courseCodes": ["CS5486"],
+      "checkedAt": "2026-09-25"
+    },
+    {
+      "id": "xhs-66bf27a800000000250322f8",
+      "platform": "xiaohongshu",
+      "url": "https://www.xiaohongshu.com/explore/66bf27a800000000250322f8",
+      "status": "blocked-unverified",
+      "reason": "Public detail URL redirected to login; body not read.",
+      "discoveryUrl": "https://null1024-ws.github.io/CityU-CS-Guide/course/CS5489.html",
+      "courseCodes": ["CS5489"],
+      "checkedAt": "2026-09-25"
+    },
+    {
+      "id": "xhs-682dfcfd00000000120000d9",
+      "platform": "xiaohongshu",
+      "url": "https://www.xiaohongshu.com/explore/682dfcfd00000000120000d9",
+      "status": "blocked-unverified",
+      "reason": "Public detail URL redirected to login; body not read.",
+      "discoveryUrl": "https://null1024-ws.github.io/CityU-CS-Guide/course/CS5489.html",
+      "courseCodes": ["CS5489"],
+      "checkedAt": "2026-09-25"
+    },
+    {
+      "id": "xhs-6a0be10c00000000350215c2",
+      "platform": "xiaohongshu",
+      "url": "https://www.xiaohongshu.com/explore/6a0be10c00000000350215c2",
+      "status": "blocked-unverified",
+      "reason": "Web timeout; original not verified.",
+      "discoveryUrl": "https://null1024-ws.github.io/CityU-CS-Guide/course/CS6491.html",
+      "courseCodes": ["CS6491"],
+      "checkedAt": "2026-09-25"
+    },
+    {
+      "id": "xhs-6a0be1210000000035024644",
+      "platform": "xiaohongshu",
+      "url": "https://www.xiaohongshu.com/explore/6a0be1210000000035024644",
+      "status": "blocked-unverified",
+      "reason": "Web timeout; original not verified. Appears on multiple guide pages; one candidate ID.",
+      "discoveryUrl": "https://null1024-ws.github.io/CityU-CS-Guide/course/CS6491.html",
+      "courseCodes": ["CS6491", "CS5293"],
+      "checkedAt": "2026-09-25"
+    },
+    {
+      "id": "xhs-6a772a610000000028031cd2",
+      "platform": "xiaohongshu",
+      "url": "https://www.xiaohongshu.com/explore/6a772a610000000028031cd2",
+      "status": "blocked-unverified",
+      "reason": "Web reader error; original not verified.",
+      "discoveryUrl": "https://null1024-ws.github.io/CityU-CS-Guide/course/CS5293.html",
+      "courseCodes": ["CS5293"],
+      "checkedAt": "2026-09-25"
+    },
+    {
+      "id": "xhs-6a0f8368000000003700faf0",
+      "platform": "xiaohongshu",
+      "url": "https://www.xiaohongshu.com/explore/6a0f8368000000003700faf0",
+      "status": "blocked-unverified",
+      "reason": "Web reader error; public browser returned note unavailable (300031). Same note on two guide pages; not two sources.",
+      "discoveryUrl": "https://null1024-ws.github.io/CityU-CS-Guide/course/CS5293.html",
+      "courseCodes": ["CS5293", "CS6487"],
+      "checkedAt": "2026-09-25"
+    },
+    {
+      "id": "xhs-669e38ab0000000027018fc3",
+      "platform": "xiaohongshu",
+      "url": "https://www.xiaohongshu.com/explore/669e38ab0000000027018fc3",
+      "status": "blocked-unverified",
+      "reason": "Web reader error; public browser returned note unavailable (300031).",
+      "discoveryUrl": "https://null1024-ws.github.io/CityU-CS-Guide/course/CS5293.html",
+      "courseCodes": ["CS5293"],
+      "checkedAt": "2026-09-25"
+    },
+    {
+      "id": "xhs-682d5b26000000000c039eaf",
+      "platform": "xiaohongshu",
+      "url": "https://www.xiaohongshu.com/explore/682d5b26000000000c039eaf",
+      "status": "included",
+      "reason": "Original body read; see provenance recordEvidence for course paragraphs and dates.",
+      "discoveryUrl": null,
+      "courseCodes": [],
+      "checkedAt": "2026-09-25"
+    },
+    {
+      "id": "xhs-6878c023000000002400e000",
+      "platform": "xiaohongshu",
+      "url": "https://www.xiaohongshu.com/explore/6878c023000000002400e000",
+      "status": "included",
+      "reason": "Original body read; see provenance recordEvidence for course paragraphs and dates.",
+      "discoveryUrl": null,
+      "courseCodes": [],
+      "checkedAt": "2026-09-25"
+    },
+    {
+      "id": "xhs-68346d6e000000002102f801",
+      "platform": "xiaohongshu",
+      "url": "https://www.xiaohongshu.com/explore/68346d6e000000002102f801",
+      "status": "included",
+      "reason": "Original body read; see provenance recordEvidence for course paragraphs and dates.",
+      "discoveryUrl": null,
+      "courseCodes": [],
+      "checkedAt": "2026-09-25"
+    },
+    {
+      "id": "dcard-256499608-b1",
+      "platform": "Dcard",
+      "url": "https://www.dcard.tw/f/cityu/p/256499608/b/1",
+      "status": "included",
+      "reason": "Original GE1301 question and B1 course experience read; no visible source date.",
+      "discoveryUrl": null,
+      "courseCodes": ["GE1301"],
+      "checkedAt": "2026-09-25"
+    },
+    {
+      "id": "trulybright-20240704",
+      "platform": "personal-blog",
+      "url": "https://trulybright.dev/posts/%EC%95%84%EC%A3%BC-%EA%B8%B4-%EA%BF%88%EC%9D%84-%EA%BE%B8%EA%B3%A0-%EB%8F%8C%EC%95%84%EC%99%80%EC%84%9C/",
+      "status": "included",
+      "reason": "Original Korean course table and individual experience bullets read; 5 records from 1 post.",
+      "discoveryUrl": null,
+      "courseCodes": ["CS2115", "CS3201", "SS3119", "SS3419", "SS4570"],
+      "checkedAt": "2026-09-25"
+    },
+    {
+      "id": "dcard-255496752",
+      "platform": "Dcard",
+      "url": "https://www.dcard.tw/f/cityu/p/255496752",
+      "status": "excluded",
+      "reason": "Original question about GE2306; visible B1 only asks the course name; no course experience read.",
+      "discoveryUrl": null,
+      "courseCodes": [],
+      "checkedAt": "2026-09-25"
+    },
+    {
+      "id": "dcard-254316810",
+      "platform": "Dcard",
+      "url": "https://www.dcard.tw/f/cityu/p/254316810",
+      "status": "excluded",
+      "reason": "Original is a list of course questions; no replies were readable in the web extraction.",
+      "discoveryUrl": null,
+      "courseCodes": [],
+      "checkedAt": "2026-09-25"
+    },
+    {
+      "id": "reddit-1o0xg6c",
+      "platform": "Reddit",
+      "url": "https://www.reddit.com/r/HongKong/comments/1o0xg6c/cityu_exchange_semester/",
+      "status": "excluded",
+      "reason": "Original post and replies read. Experiences concern unnamed classes; cannot map to course code.",
+      "discoveryUrl": null,
+      "courseCodes": [],
+      "checkedAt": "2026-09-25"
+    },
+    {
+      "id": "reddit-1u5nzsv",
+      "platform": "Reddit",
+      "url": "https://www.reddit.com/r/Hong_Kong/comments/1u5nzsv/cityu_school_of_law/",
+      "status": "excluded",
+      "reason": "Original post/replies read; programme-level JD/PCLL book advice without specific course code.",
+      "discoveryUrl": null,
+      "courseCodes": [],
+      "checkedAt": "2026-09-25"
+    },
+    {
+      "id": "reddit-1na125d",
+      "platform": "Reddit",
+      "url": "https://www.reddit.com/r/u_Resident-Use5713/comments/1na125d",
+      "status": "blocked-unverified",
+      "reason": "Reader error; source not verified.",
+      "discoveryUrl": null,
+      "courseCodes": [],
+      "checkedAt": "2026-09-25"
+    },
+    {
+      "id": "mojimoon-cityu-cs",
+      "platform": "public-guide",
+      "url": "https://github.com/mojimoon/CityU-CS",
+      "status": "excluded",
+      "reason": "Original README read. Repository is notes/code with course links, not independently verified course reviews; not counted.",
+      "discoveryUrl": null,
+      "courseCodes": [],
+      "checkedAt": "2026-09-25"
+    },
+    {
+      "id": "cityu-handbook",
+      "platform": "public-guide",
+      "url": "https://cityu.netlify.app/docs/courses/intro",
+      "status": "excluded",
+      "reason": "Original guide introduction read, general claim of reviews is not a verified individual course experience.",
+      "discoveryUrl": null,
+      "courseCodes": [],
+      "checkedAt": "2026-09-25"
+    },
+    {
+      "id": "dcard-257734673",
+      "platform": "search-discovery",
+      "url": "https://www.dcard.tw/f/cityu/p/257734673",
+      "status": "lead-only",
+      "reason": "Search lead is a GE1337 question; original/replies not read, no publication.",
+      "discoveryUrl": null,
+      "courseCodes": [],
+      "checkedAt": "2026-09-25"
+    },
+    {
+      "id": "dcard-257726329",
+      "platform": "search-discovery",
+      "url": "https://www.dcard.tw/f/cityu/p/257726329",
+      "status": "lead-only",
+      "reason": "Search lead advertises course sources for sale; excluded, contact handles not copied.",
+      "discoveryUrl": null,
+      "courseCodes": [],
+      "checkedAt": "2026-09-25"
+    },
+    {
+      "id": "dcard-257727488",
+      "platform": "search-discovery",
+      "url": "https://www.dcard.tw/f/cityu/p/257727488",
+      "status": "lead-only",
+      "reason": "Search lead advertises course sources for sale; excluded, contact handles not copied.",
+      "discoveryUrl": null,
+      "courseCodes": [],
+      "checkedAt": "2026-09-25"
+    },
+    {
+      "id": "zhihu-2446797226",
+      "platform": "search-discovery",
+      "url": "https://www.zhihu.com/tardis/sogou/ans/2446797226",
+      "status": "lead-only",
+      "reason": "Search-only media programme experience lead; original course mapping not verified.",
+      "discoveryUrl": null,
+      "courseCodes": [],
+      "checkedAt": "2026-09-25"
+    },
+    {
+      "id": "omwong8-blog",
+      "platform": "search-discovery",
+      "url": "https://omwong8.blogspot.com/",
+      "status": "lead-only",
+      "reason": "Search-only GE1401 course blog lead; prose may be submitted coursework rather than a course review. Not verified.",
+      "discoveryUrl": null,
+      "courseCodes": [],
+      "checkedAt": "2026-09-25"
+    }
+  ],
+  "deduplication": [
+    "Source identity uses original note ID / Dcard contribution ID / canonical blog URL; query string does not create another source.",
+    "Guide prose and the original Xiaohongshu note are one source, never two.",
+    "The same blog found in two queries counts once.",
+    "Same original speaks about several courses: one record per course, shared sourceId; not multiple independent authors.",
+    "No copied/transferred cross-platform experience was found among included new records. Named display identities are not real-world identity verification."
+  ]
+}

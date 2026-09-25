@@ -1,0 +1,13 @@
+node_modules
+dist
+.wrangler
+.vinext
+.sites-runtime
+package-lock.json
+data/*.json
+components/ui
+vendor
+build
+scripts/sites-env.mjs
+scripts/run-framework.mjs
+scripts/execution-profile.mjs

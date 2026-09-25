@@ -1,0 +1,26 @@
+{
+  "generatedOn": "2026-09-11",
+  "method": "offline neural machine translation plus editorial exact-source glossary and source-aware terminology corrections",
+  "model": {
+    "id": "argos-translate-en_zh-1_9",
+    "version": "1.9",
+    "sourceUrl": "https://argos-net.com/v1/translate-en_zh-1_9.argosmodel",
+    "packageSha256": "433e7c4f034d87fbe2353161e05f18646d7999452f801a4e1f0378522b9850ab",
+    "licenseAsStatedByModelReadme": "CC-BY-4.0",
+    "attribution": "Jörg Tiedemann and Santhosh Thottingal. OPUS-MT — Building open translation services for the World. EAMT 2020. Lisbon, Portugal."
+  },
+  "runtime": {
+    "ctranslate2": "4.8.2",
+    "sentencepiece": "0.2.2",
+    "opencc-python-reimplemented": "0.1.7",
+    "device": "CPU",
+    "computeType": "int8",
+    "beamSize": 4
+  },
+  "chineseScripts": {
+    "simplified": "neural translation target cmn_Hans, normalized with OpenCC t2s",
+    "traditional": "OpenCC s2t conversion of simplified result; no independent localization review"
+  },
+  "descriptionPolicy": "First official source sentence or at most 600 source characters. Full source remains separately stored. No invented synopsis when source missing.",
+  "qualityPolicy": "Unofficial machine-assisted translation. All courses marked needs-human-review. Maintain editable title/description glossaries. Structural checks do not certify semantic correctness."
+}

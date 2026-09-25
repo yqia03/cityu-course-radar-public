@@ -1,0 +1,41 @@
+name: Validate
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+      - run: node scripts/tail-material-uploads.mjs --self-test
+      - run: npm run lint
+      - run: python3 -m unittest discover -s scripts/catalogue -p 'test_*.py'
+      - run: npm run format:check
+      - run: npm run build
+      - run: npm run db:local
+      - name: Exercise the local public API
+        run: |
+          mkdir -p .sites-runtime
+          echo 'ADMIN_USER_IDS=local_seedy' > .env
+          node scripts/run-framework.mjs dev --port 5173 > .sites-runtime/dev.log 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid" 2>/dev/null || true' EXIT
+          for attempt in $(seq 1 60); do
+            if curl --fail --silent http://localhost:5173/api/session > /dev/null; then break; fi
+            sleep 1
+          done
+          npm run test:integration
+          npm run test:cleanup
+          kill "$server_pid"
+          wait "$server_pid" 2>/dev/null || true
+          npm run test:materials

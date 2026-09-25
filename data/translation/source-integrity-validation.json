@@ -1,0 +1,27 @@
+{
+  "verifiedAt": "2026-09-11T13:00:25Z",
+  "command": "python verify_translation_data.py --source courses-complete.json --translated courses-translated.json --departments departments-translated.json",
+  "exitCode": 0,
+  "courses": 4422,
+  "sourceFieldsPreserved": true,
+  "codeSetPreserved": true,
+  "courseSequenceNumbersPreserved": true,
+  "titlesCovered": 4422,
+  "descriptionsCovered": 4422,
+  "sourceExcerptIntegrity": true,
+  "departmentDictionaryCoverage": 41,
+  "files": {
+    "courses-translated.json": {
+      "bytes": 11286445,
+      "sha256": "d0e57215b3951a5a2703c6e725cedb32fc846786d39aca95ee50e4a872ff9394"
+    },
+    "translations.json": {
+      "bytes": 4370523,
+      "sha256": "a2428e8dd9a8cde8f3f4eb804243024320364e81f8ea3352443692fab9b83f44"
+    },
+    "departments-translated.json": {
+      "bytes": 10452,
+      "sha256": "bfb8f0f03697ba4402e832b59530124d0ea87b5891b06c0155daf22d0b684fe9"
+    }
+  }
+}

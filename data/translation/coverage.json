@@ -1,0 +1,28 @@
+{
+  "generatedAt": "2026-09-11T13:00:25.904423+00:00",
+  "input": "courses-complete.json",
+  "totalCourses": 4422,
+  "titlesTranslated": 4422,
+  "descriptionsAvailable": 4422,
+  "descriptionsTranslated": 4422,
+  "titlesFromEditorialGlossary": 398,
+  "qualityFlagCount": 0,
+  "qualityWarnings": [],
+  "titlesMissing": 0,
+  "descriptionsMissing": 0,
+  "titlesWithoutChineseCharacters": 0,
+  "descriptionsWithoutChineseCharacters": 0,
+  "titlesIdenticalToEnglish": 0,
+  "descriptionsIdenticalToEnglish": 0,
+  "provider": "argos-translate-en_zh-1_9",
+  "providerRevision": "cityu-offline-v1",
+  "modelLicense": "CC-BY-4.0 (according to bundled model README)",
+  "translationNotice": "Machine-assisted Chinese translations of official CityU source. Not official Chinese titles; not fully human reviewed. Descriptions translate only the first source sentence or a 600-character excerpt.",
+  "sourceUrls": [
+    "https://argos-net.com/v1/translate-en_zh-1_9.argosmodel",
+    "https://github.com/argosopentech/argospm-index",
+    "https://github.com/BYVoid/OpenCC"
+  ],
+  "modelAttribution": "Jörg Tiedemann and Santhosh Thottingal. OPUS-MT — Building open translation services for the World. EAMT 2020, Lisbon, Portugal.",
+  "remainingCodesWithoutDescription": []
+}

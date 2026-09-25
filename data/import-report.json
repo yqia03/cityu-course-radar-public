@@ -1,0 +1,130 @@
+{
+  "fetchedAt": "2026-09-11T12:32:19.226331+00:00",
+  "sources": {
+    "ug": "https://www.cityu.edu.hk/catalogue/ug/current/catalogue/B/B_course_index_full.htm",
+    "pg": "https://www.cityu.edu.hk/catalogue/pg/current/catalogue/TP/TP_course_index_full.htm"
+  },
+  "sourceGeneratedAt": {
+    "ug": "11-SEP-2026 08:04:24",
+    "pg": "11-SEP-2026 08:05:00"
+  },
+  "indexLinks": {
+    "ug": 2482,
+    "pg": 2110
+  },
+  "uniquePerCatalogue": {
+    "ug": 2312,
+    "pg": 2110
+  },
+  "uniqueCourses": 4422,
+  "gatewayEducationCourses": 170,
+  "crossLevelCourses": 0,
+  "scope": "All unique course codes listed in current public undergraduate and postgraduate course indices; this is not a guarantee every listed course is offered this term. Masters, professional doctorate and research full indices were identical in the 2026/27 snapshot.",
+  "failures": [
+    {
+      "code": "LW6121E",
+      "error": "curl: (56) The requested URL returned error: 404"
+    },
+    {
+      "code": "SEEM8010",
+      "error": "curl: (56) The requested URL returned error: 404"
+    }
+  ],
+  "detailsSucceeded": 4420,
+  "withDescription": 4396,
+  "withCredits": 4412,
+  "departments": {
+    "Department of Accountancy": 64,
+    "Department of Biostatistics": 16,
+    "Department of Biomedical Engineering": 101,
+    "Department of Biomedical Sciences": 93,
+    "Department of Architecture and Civil Engineering": 229,
+    "Department of Chinese and History": 155,
+    "CityUHK Academy of Innovation": 8,
+    "Department of Decision Analytics and Operations": 104,
+    "Department of Economics and Finance": 125,
+    "Department of Information Systems": 105,
+    "Department of Management": 90,
+    "Department of Marketing": 75,
+    "College of Business": 251,
+    "College of Biomedicine": 2,
+    "College of Computing": 2,
+    "Department of Chemistry": 135,
+    "Chan Feng Men-ling Chan Shuk-lin Language Centre": 59,
+    "College of Liberal Arts and Social Sciences": 12,
+    "Department of Media and Communication": 111,
+    "Department of Computer Science": 167,
+    "College of Science": 20,
+    "Department of Data Science": 125,
+    "Department of Electrical Engineering": 159,
+    "Department of English": 136,
+    "College of Engineering": 21,
+    "School of Creative Media": 221,
+    "Department of Public and International Affairs": 239,
+    "School of Law": 308,
+    "Department of Linguistics and Translation": 196,
+    "Department of Social and Behavioural Sciences": 252,
+    "School of Energy and Environment": 122,
+    "Department of Physics": 85,
+    "Department of Mechanical Engineering": 130,
+    "Department of Systems Engineering": 124,
+    "Department of Materials Science and Engineering": 67,
+    "Department of Mathematics": 128,
+    "Department of Infectious Diseases and Public Health": 47,
+    "Department of Neuroscience": 32,
+    "Student Development Services": 70,
+    "Chow Yei Ching School of Graduate Studies": 2,
+    "Department of Veterinary Clinical Sciences": 34
+  },
+  "finishedAt": "2026-09-11T12:58:43.949125+00:00",
+  "primaryDepartments": 41,
+  "jointlyOfferedCourses": [
+    "GE3104",
+    "JC2002",
+    "JC2066"
+  ],
+  "withDescriptionAfterPdfFallback": 4422,
+  "pdfDescriptions": 25,
+  "editorialSyllabusSummaries": 1,
+  "recoveredDetailCodes": [
+    "LW6121E",
+    "SEEM8010"
+  ],
+  "unresolvedDetailFailures": [],
+  "missingDescriptionCodes": [],
+  "skippedOverridesFromDifferentYear": [],
+  "variableCreditCourses": [
+    {
+      "code": "BIOS6906",
+      "creditsText": "0-6"
+    },
+    {
+      "code": "CAH6507",
+      "creditsText": "0-6"
+    },
+    {
+      "code": "DSC6006",
+      "creditsText": "0-6"
+    },
+    {
+      "code": "DSC6024",
+      "creditsText": "0-6"
+    },
+    {
+      "code": "MA6616",
+      "creditsText": "0-1"
+    },
+    {
+      "code": "MA6617",
+      "creditsText": "0-6"
+    },
+    {
+      "code": "MSE6309",
+      "creditsText": "0-9"
+    },
+    {
+      "code": "PH6207",
+      "creditsText": "0-9"
+    }
+  ]
+}

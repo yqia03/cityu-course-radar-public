@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1789130749246,
+      "tag": "0000_amusing_drax",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1789564763980,
+      "tag": "0001_review_abuse_guards",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1790237938291,
+      "tag": "0002_google_sessions",
+      "breakpoints": true
+    }
+  ]
+}

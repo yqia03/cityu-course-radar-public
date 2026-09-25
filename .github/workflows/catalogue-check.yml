@@ -1,0 +1,30 @@
+name: Check official catalogue changes
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Read the official index without modifying the released snapshot
+        run: python3 scripts/catalogue/import_cityu.py --output-dir data/staging/index-check --index-only
+      - name: Compare course codes
+        run: |
+          python3 - <<'PY'
+          import json
+          old={r['code'] for r in json.load(open('data/courses.json')) if not r.get('archived')}
+          new={r['code'] for r in json.load(open('data/staging/index-check/courses-index.json'))}
+          print(json.dumps({'added':sorted(new-old),'removed':sorted(old-new)},indent=2))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: official-index-check
+          path: |
+            data/staging/index-check/courses-index.json
+            data/staging/index-check/import-report.json
