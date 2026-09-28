@@ -3,8 +3,6 @@ import { db, adminIds } from "./db";
 import { getUser } from "./auth";
 import { HttpError } from "./http";
 import { checksumHex } from "./material-validation";
-export const OFFICIAL_EXAM_URL =
-  "https://www.cityu.edu.hk/lib/digital/exampaper/index.htm";
 export function bucket() {
   if (!env.MATERIALS) throw new HttpError(503, "STORAGE_UNAVAILABLE");
   return env.MATERIALS;

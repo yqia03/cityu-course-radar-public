@@ -1,15 +1,11 @@
 import { getUser } from "@/lib/auth";
 import { getCourse } from "@/lib/catalogue";
 import { json, failure, HttpError } from "@/lib/http";
-import {
-  listMaterials,
-  usage,
-  OFFICIAL_EXAM_URL,
-  canUploadMaterials,
-} from "@/lib/materials";
+import { listMaterials, usage, canUploadMaterials } from "@/lib/materials";
 import { db } from "@/lib/db";
 import { z } from "zod";
 import { MAX_FILE_BYTES } from "@/lib/material-validation";
+import { officialExamSearchUrl } from "@/lib/official-exams";
 export async function GET(
   _r: Request,
   { params }: { params: Promise<{ code: string }> },
@@ -78,7 +74,7 @@ export async function GET(
       uploadsEnabled:
         (await usage()).uploadsEnabled && canUploadMaterials(u?.userId || null),
       maxFileBytes: MAX_FILE_BYTES,
-      officialExamUrl: OFFICIAL_EXAM_URL,
+      officialExamUrl: officialExamSearchUrl(code),
       scanStatus: "not_scanned",
     });
   } catch (e) {

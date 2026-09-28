@@ -223,14 +223,19 @@ const labels = {
     "CityU Library past exam papers",
   ],
   officialAction: [
-    "去图书馆查找历年试卷（免费）",
-    "到圖書館查找歷年試卷（免費）",
-    "Find past exam papers at the Library (free)",
+    "查找 {code} 历年试卷（免费）",
+    "查找 {code} 歷年試卷（免費）",
+    "Find {code} past exam papers (free)",
+  ],
+  officialBrowse: [
+    "按学年与院系浏览全部试卷",
+    "按學年與院系瀏覽全部試卷",
+    "Browse all papers by year and department",
   ],
   officialNote: [
-    "这是通用官方查找入口，并非已匹配本课程的文件。通常仅限在校师生，须在学校页面使用 EID 及 AD/LAN 密码。本站不收集学校凭据。",
-    "這是通用官方查找入口，並非已匹配本課程的檔案。通常僅限在校師生，須在學校頁面使用 EID 及 AD/LAN 密碼。本站不收集學校憑據。",
-    "This is a general official search entry, not a matched paper for this course. Access is normally restricted to current students and staff using EID and AD/LAN credentials on the University's page. This site does not collect those credentials.",
+    "直达 LibraryFind，按本课程代码查找试卷索引，不扣积分。馆藏可能为空；如无结果，可按学年与院系浏览。试卷仅限当前城大师生，在学校页面使用 EID 及 AD/LAN 密码登录。本站不收集学校凭据。",
+    "直達 LibraryFind，按本課程代碼查找試卷索引，不扣積分。館藏可能為空；如無結果，可按學年與院系瀏覽。試卷僅限當前城大師生，在學校頁面使用 EID 及 AD/LAN 密碼登入。本站不收集學校憑據。",
+    "Search LibraryFind's exam-paper index using this course code, free of points. Papers may not be available; if there are no results, browse by year and department. Papers are restricted to current CityUHK students and staff. Sign in with EID and AD/LAN credentials only on the University's page; this site does not collect them.",
   ],
   permissionPending: [
     "尚无官方试卷站外保存及分发许可，未批量导入 PDF。",
