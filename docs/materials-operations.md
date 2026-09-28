@@ -79,9 +79,13 @@ R2 和 D1 没有跨服务事务。这里通过不可覆盖对象、显式状态�
 
 ## 官方试卷与许可
 
-[官方试卷入口](https://www.cityu.edu.hk/lib/digital/exampaper/index.htm)仍要求当前城大师生身份，在学校网站用 EID/AD-LAN 登录；本站不收集或代理学校密码。入口免费、不扣积分，不伪装成单课已匹配文件。
+[官方试卷入口](https://www.cityu.edu.hk/lib/digital/exampaper/index.htm)要求当前城大师生身份，在学校网站用 EID/AD-LAN 登录；本站不收集或代理学校密码。每门课资料页免费直达 LibraryFind 的本课程代码试卷检索，不扣积分，无需本站登录；无结果时可用[按学年与院系浏览](https://www.cityu.edu.hk/lib/digital/exampaper/ftlist.htm)入口。
 
-`data/official-exam-index.json` 只记录通用入口，明确直接页面 403、官方搜索索引核验方式；papers 数组为空。未取得覆盖下载、站外保存、向本站用户分发与期限的书面许可，**批量 PDF 入库未完成，导入数量 0**。`GET/POST /api/admin/materials/import` 提供状态与 dry_run，仅报告缺许可，不执行下载。未来许可需单独核验并实施受限导入器，不因填入一个布尔值就视为取得许可。
+2026-09-28 已在浏览器读取官方入口、学年列表与 LibraryFind。链接由 `lib/official-exams.ts` 统一生成：沿用官方学年链接的机构 `852JULAC_CUH:CUH`、范围 `MyInstitution` 和试卷短语，再以 AND 加入精确课程代码；使用系统文档支持的[高级检索链接格式](https://developers.exlibrisgroup.com/primo/apis/deep-links-new-ui/)。这也与实际高级检索 UI 生成的 URL 一致。不要用普通的 `set("query", ...)` 覆盖已有条件，不接受任意 URL、主机或查询表达式。
+
+实测 CS2116 命中 2024–25、2025–26 两个院系/学年索引；2025–26 记录 `alma991030070331503408` 的 Contents 明确列出 CS2116、CS6382、GE2340。CS5296 在未登录会话中显示无记录，不据此断言没有试卷。链接只检索公开索引，不保证每门课或每学期都有馆藏；记录通常按院系/学年归档，仍需在官方站内选择试卷并完成学校认证。没有验证或下载受限 PDF。
+
+`data/official-exam-index.json` 保存核验日期、入口与已读取的公开索引定位依据；`papers` 数组仍为空。未取得覆盖下载、站外保存、向本站用户分发与期限的书面许可，**批量 PDF 入库未完成，导入数量 0**。`GET/POST /api/admin/materials/import` 提供状态与 dry_run，仅报告缺许可，不执行下载。未来许可需单独核验并实施受限导入器，不因填入一个布尔值就视为取得许可。
 
 ## 备份、迁移与回滚
 

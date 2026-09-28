@@ -8,6 +8,10 @@ import { Textarea } from "@/components/ui/textarea";
 import { useRadar } from "./radar-provider";
 import { api } from "@/lib/client";
 import {
+  officialExamSearchUrl,
+  OFFICIAL_EXAM_BROWSE_URL,
+} from "@/lib/official-exams";
+import {
   materialError,
   materialMessage,
   materialStatus,
@@ -159,14 +163,25 @@ export function MaterialsLibrary({ code }: { code: string }) {
         <h3>{m("officialTitle")}</h3>
         <p>{m("officialNote")}</p>
         <a
-          href="https://www.cityu.edu.hk/lib/digital/exampaper/index.htm"
+          href={officialExamSearchUrl(code)}
           target="_blank"
           rel="noreferrer"
           className="text-link"
         >
-          {m("officialAction")}
+          {m("officialAction").replace("{code}", code)}
           <ArrowUpRight size={16} />
         </a>
+        <p>
+          <a
+            href={OFFICIAL_EXAM_BROWSE_URL}
+            target="_blank"
+            rel="noreferrer"
+            className="text-link"
+          >
+            {m("officialBrowse")}
+            <ArrowUpRight size={16} />
+          </a>
+        </p>
         <p className="materials-note">{m("permissionPending")}</p>
       </article>
       {error && (

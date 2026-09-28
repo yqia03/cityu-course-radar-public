@@ -92,6 +92,20 @@ execFileSync(
 const anon = await client(),
   owner = await client(undefined, `radar_session=${sessionToken}`);
 await anon("/api/session");
+for (const courseCode of ["CS2116", "GE2340"]) {
+  const catalogue = await anon(`/api/courses/${courseCode}/materials`);
+  check(
+    catalogue.status === 200,
+    `anonymous materials catalogue ${courseCode}`,
+  );
+  const link = new URL(catalogue.data.officialExamUrl);
+  check(
+    link.origin === "https://julac-cuh.primo.exlibrisgroup.com" &&
+      link.searchParams.getAll("query").join("|") ===
+        `any,exact,CityU Examination Papers,AND|any,exact,${courseCode},AND`,
+    `official paper search scoped to ${courseCode}`,
+  );
+}
 const fixture = {
   code,
   titleEn: "Integration Test Course",
