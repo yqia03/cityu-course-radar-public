@@ -8,6 +8,7 @@ const publicDocs = new Set([
   "catalogue.md",
   "cloudflare-deployment.md",
   "database-migrations.md",
+  "development.md",
   "external-reviews.md",
   "external-reviews-expansion-2026-09-25.md",
   "external-reviews-search-2026-09-25.json",
@@ -26,6 +27,7 @@ const rootFiles = new Set([
   "proxy.ts",
   "LICENSE",
   "README.md",
+  "README.en.md",
   "CONTRIBUTING.md",
   "THIRD_PARTY_NOTICES.md",
   "package.json",
@@ -40,10 +42,14 @@ const rootFiles = new Set([
   "wrangler.json",
   "wrangler.local.json",
 ]);
+// This screenshot was reviewed for the public README; other binary files still require review.
+const publicImages = new Set(["docs/images/course-browser.png"]);
+
 export function isPublicPath(path) {
   if (path.split("/").some((part) => part === ".." || part === ".git"))
     return false;
-  if (path.startsWith("docs/")) return publicDocs.has(path.slice(5));
+  if (path.startsWith("docs/"))
+    return publicDocs.has(path.slice(5)) || publicImages.has(path);
   return (
     rootFiles.has(path) ||
     /^(app|components|hooks|lib|db|drizzle|tests|scripts|data|public|vendor|build|\.github)\//.test(
@@ -154,11 +160,17 @@ async function main() {
     const bytes = execFileSync("git", ["cat-file", "blob", hash], {
       maxBuffer: 32 * 1024 * 1024,
     });
+    const target = resolve(output, path);
+    if (publicImages.has(path)) {
+      await mkdir(dirname(target), { recursive: true });
+      await writeFile(target, bytes, { flag: "wx", mode: 0o644 });
+      copied++;
+      continue;
+    }
     if (bytes.includes(0))
       throw new Error(
         `Binary file needs explicit review before public export: ${path}`,
       );
-    const target = resolve(output, path);
     await mkdir(dirname(target), { recursive: true });
     let contents = sanitizePublicFile(path, bytes.toString("utf8"));
     if (path.endsWith(".md"))
