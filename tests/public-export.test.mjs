@@ -1,5 +1,17 @@
 import test from "node:test";
 import assert from "node:assert/strict";
+import { execFileSync } from "node:child_process";
+import {
+  existsSync,
+  mkdirSync,
+  mkdtempSync,
+  readFileSync,
+  rmSync,
+  writeFileSync,
+} from "node:fs";
+import { tmpdir } from "node:os";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
 import { isPublicPath, sanitizePublicFile } from "../scripts/export-public.mjs";
 
 test("public export includes source but excludes private state, plans and production evidence", () => {
@@ -60,4 +72,83 @@ test("public export strips account config and source-link tokens while preservin
   );
   assert.equal(clean.author, source.author);
   assert.equal(clean.checkedAt, source.checkedAt);
+});
+
+test("public export preserves the bilingual introduction and reviewed screenshot without allowing other binaries", (t) => {
+  const root = mkdtempSync(join(tmpdir(), "cityu-public-export-"));
+  t.after(() => rmSync(root, { recursive: true, force: true }));
+  const source = join(root, "source");
+  mkdirSync(source);
+  const write = (path, contents) => {
+    const target = join(source, path);
+    mkdirSync(dirname(target), { recursive: true });
+    writeFileSync(target, contents);
+  };
+  const screenshot = readFileSync(
+    new URL("../docs/images/course-browser.png", import.meta.url),
+  );
+  write(
+    "README.md",
+    "# 城课雷达\n\n[English](README.en.md)\n\n![课程浏览页](docs/images/course-browser.png)\n",
+  );
+  write("README.en.md", "# CityU Course Radar\n\n[简体中文](README.md)\n");
+  write("docs/development.md", "# 开发指南\n\nLocal setup and checks.\n");
+  write("docs/images/course-browser.png", screenshot);
+  write("docs/images/unreviewed.png", screenshot);
+  write("docs/evidence/account.json", '{"private":true}\n');
+  const git = (...args) =>
+    execFileSync("git", args, { cwd: source, stdio: "pipe" });
+  git("init", "-q");
+  const commit = () => {
+    git("add", ".");
+    git(
+      "-c",
+      "user.name=Export Test",
+      "-c",
+      "user.email=export-test@example.invalid",
+      "-c",
+      "commit.gpgsign=false",
+      "commit",
+      "-qm",
+      "Export fixture",
+    );
+  };
+  commit();
+  const exporter = fileURLToPath(
+    new URL("../scripts/export-public.mjs", import.meta.url),
+  );
+  const output = join(root, "exported");
+  execFileSync(process.execPath, [exporter, output], {
+    cwd: source,
+    stdio: "pipe",
+  });
+  assert.match(
+    readFileSync(join(output, "README.md"), "utf8"),
+    /README\.en\.md/,
+  );
+  assert.match(
+    readFileSync(join(output, "README.en.md"), "utf8"),
+    /CityU Course Radar/,
+  );
+  assert.match(
+    readFileSync(join(output, "docs/development.md"), "utf8"),
+    /Local setup and checks/,
+  );
+  assert.deepEqual(
+    readFileSync(join(output, "docs/images/course-browser.png")),
+    screenshot,
+  );
+  assert.equal(existsSync(join(output, "docs/images/unreviewed.png")), false);
+  assert.equal(existsSync(join(output, "docs/evidence/account.json")), false);
+
+  write("public/unreviewed.png", screenshot);
+  commit();
+  assert.throws(
+    () =>
+      execFileSync(process.execPath, [exporter, join(root, "rejected")], {
+        cwd: source,
+        stdio: "pipe",
+      }),
+    /Binary file needs explicit review before public export: public\/unreviewed\.png/,
+  );
 });

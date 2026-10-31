@@ -1,6 +1,6 @@
 # Contributing to CityU Course Radar
 
-Use Node 24+ and Python 3.11+. Start with README.md. Keep pull requests focused on an observable change.
+Use Node 24+ and Python 3.11+. Start with the [development guide](docs/development.md) for local setup and checks. Keep pull requests focused on an observable change.
 
 - The official catalogue is a versioned dataset, not a hand-written list. Correct translations through the dictionaries under `data/translation/` and rerun the merge pipeline.
 - Every user-facing label belongs in `lib/messages.ts` with all three language variants. Original student reviews are never automatically translated or rewritten.
